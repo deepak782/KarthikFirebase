@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    tools:context=".project.HomeActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/my_shape">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="your are succesfully logged in"
+            android:layout_gravity="left|top"
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:textColor="#512DA8"/>
+        <TextView
+            android:id="@+id/usermail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="userMail"
+            android:layout_gravity="bottom|left"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/signout"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="right|center"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_power_settings_new_24" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/noteRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="50dp"/>
+
+        <ImageView
+            android:id="@+id/openDialog"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_add_circle_24"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"/>
+
+    </FrameLayout>
+</LinearLayout>

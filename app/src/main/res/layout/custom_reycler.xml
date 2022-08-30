@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_shape"
+    android:layout_marginTop="10dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="UID"
+        android:paddingLeft="10dp"
+        android:textColor="#B60C46"
+        android:textSize="12sp"
+        android:gravity="center|start"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Title"
+        android:paddingLeft="10dp"
+        android:textColor="#B60C46"
+        android:textSize="14sp"
+        android:gravity="center|start"/>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Desc"
+        android:paddingLeft="10dp"
+        android:textColor="#B60C46"
+        android:textSize="14sp"
+        android:gravity="center|start"/>
+    <TextView
+        android:id="@+id/timeStamp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TimeStamp"
+        android:paddingLeft="10dp"
+        android:textColor="#B60C46"
+        android:textSize="14sp"
+        android:gravity="center|start"/>
+
+</LinearLayout>
