@@ -46,6 +46,8 @@ dependencies {
     //Storage
     implementation 'com.google.firebase:firebase-storage'
 
+    // Also add the dependency for the Google Play services library and specify its version for Gmail
+    implementation 'com.google.android.gms:play-services-auth:20.3.0'
 
 
 }
